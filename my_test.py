@@ -1,3 +1,6 @@
+import torch
+
+
 class Solution:
     def shortestPalindrome(self, s: str) -> str:
         N = len(s)
@@ -14,4 +17,7 @@ if __name__ == "__main__":
     s = "helloword"
     b = a.shortestPalindrome(s)
     print(b)
+    d = [1, 2, 3, 4]
+    e = torch.tensor(d)
+    print(d)
 
