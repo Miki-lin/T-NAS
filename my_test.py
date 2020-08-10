@@ -4,7 +4,8 @@ import torch
 class Solution:
     def shortestPalindrome(self, s: str) -> str:
         N = len(s)
-        if N < 2 : return s
+        if N < 2:
+            return s
         res = 0
         for i in range(1,N):
             m = (i+1)//2
