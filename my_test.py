@@ -20,4 +20,5 @@ if __name__ == "__main__":
     d = [1, 2, 3, 4]
     e = torch.tensor(d)
     print(d)
+    print('the server')
 

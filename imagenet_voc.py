@@ -343,7 +343,7 @@ if __name__ == '__main__':
     end_time = time.time()
     print(end_time-start_time)
     dataloader = DataLoader(dataset, 5, True, num_workers=4, collate_fn=dataset.collate_fn)
-    # dataloader.dataset[0]
+    dataloader.dataset[0]
     # dataloader.dataset[1]
     # dataloader.dataset[2]
     # dataloader.dataset[3]
