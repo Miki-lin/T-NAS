@@ -9,7 +9,8 @@ class Solution:
         res = 0
         for i in range(1,N):
             m = (i+1)//2
-            if s[:m] == s[m if (i+1)%2==0 else m+1:i+1][::-1] : res = i
+            if s[:m] == s[m if (i+1) % 2 == 0 else m+1:i+1][::-1]:
+                res = i
         return s[res+1:][::-1]+s
 
 
